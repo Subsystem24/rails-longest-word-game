@@ -13,3 +13,33 @@
  *= require_tree .
  *= require_self
  */
+ .new{
+text-align: center;
+font-size: 100px;
+ }
+.letters{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+ .letter{
+text-align: center;
+padding: 10px;
+background-color: aquamarine;
+border: solid 1px black;
+ }
+
+ .form{
+text-align: center;
+
+ }
+
+ .challenge{
+  text-align: center;
+  font-size: 30px;
+ }
+
+ #input{
+  width: 500px;
+  height: 50px;
+ }
